@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merci de vous être abonné à notre newsletter</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        :root {
+            --primaryColor: #43b02a;
+            --secPrimaryColor: #c8b610;
+            --bgColor: rgb(245, 245, 245);
+            --bgColor2: #fafafa;
+            --cardColor: white;
+            --textColor: black;
+            --textColorOnColoredCard: white;
+            --scrollBarBgColor: #d7d7d7;
+            --subtitleColor: gray;
+            --error: #FF0000;
+            --dividerColor: rgb(221, 221, 221);
+        }
+
+        body {
+            background-color: var(--bgColor);
+            width: 100%;
+        }
+
+        .body-main {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            background-color: var(--bgColor);
+        }
+
+        .header {
+            padding: 2rem;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header img {
+            height: 5rem;
+            width: 5rem;
+            max-height: 5rem;
+            max-width: 5rem;
+            object-fit: contain;
+            min-height: 5rem;
+            min-width: 5rem;
+        }
+
+        .body {
+            padding: 2rem;
+            width: 100%;
+        }
+
+        footer {
+            border-top: .1rem solid var(--dividerColor);
+            padding: 2rem;
+            text-align: start;
+        }
+
+        .grayed {
+            color: var(--subtitleColor);
+        }
+
+        .small {
+            font-size: small;
+        }
+
+        p a {
+            color: var(--primaryColor);
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .larger {
+            font-size: larger;
+        }
+
+        p {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .divider {
+            height: 2rem;
+            min-height: 2rem;
+            background-color: var(--bgColor);
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+    <div class="body-main">
+        <div class="header">
+            <img src="https://dpictures.s3.amazonaws.com/pv-d/20221119_072215.png" alt="" />
+        </div>
+        <div class="body">
+            <p class="larger">Bonjour Dieudonné Assumani,</p>
+            <div class="divider"></div>
+            <p class="larger">Merci d'avoir pris le temps de postuler. Nous apprécions votre intérêt pour
+                <a href="https://burundibrewery.com" target="_blank">Burundi Brewery</a>.
+            </p>
+            <div class="divider"></div>
+            <p class="larger">Nous commencerons à prendre des entretiens. Si vous êtes sélectionné pour poursuivre le
+                processus d'entretien, notre service des ressources humaines vous contactera.</p>
+            <div class="divider"></div>
+        </div>
+        <footer>
+            <p class="bold">BURUNDI BREWERY SA</p>
+            <p class="bold">Vyerwa, Ngozi, Burundi</p>
+            <p class="bold">BP 41 Ngozi Burundi</p>
+            </br>
+            <p class="grayed small">Signalez tout problème en nous contactant à <a
+                    href="mailto:hfa@burundibrewery.com">hfa@burundibrewery.com</a></p>
+        </footer>
+    </div>
+</body>
+
+
+</html>
